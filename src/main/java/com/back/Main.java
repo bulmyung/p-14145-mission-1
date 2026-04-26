@@ -13,12 +13,28 @@ public class Main {
             System.out.print("명령) ");
             String cmd = scanner.nextLine().trim();
 
+
+            if (cmd.equals("등록")) {
+                System.out.print("명언 : ");
+                String content = scanner.nextLine().trim();
+                System.out.print("작가 : ");
+                String author = scanner.nextLine().trim();
+            }
             if (cmd.equals("종료")) {
                 break;
+
+
+
+
+
+                }
+
+
+
             }
+
             
-            
-        }
+
         scanner.close();
     }
 }
